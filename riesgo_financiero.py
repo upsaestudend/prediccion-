@@ -74,7 +74,7 @@ with st.form("formulario"):
     deudas = st.slider("Deudas Activas",0, 5, 2)
     historial = st.selectbox("Historial Credito",["Bueno", "Regular","Malo"])
     edad = st.slider("Edad",21,64,30)
-    tarjeta = st.radio("¿Tiene tarjeta de crédito?", [0,1])
+    tarjeta = st.radio("¿Tiene tarjeta de crédito?", ["Sí","No"])
     educacion = st.selectbox("Nivel de Educación", ["Básico","Medio", "Superior"])
     inversiones = st.slider("Inversiones Activas", 0,3,1)
     
